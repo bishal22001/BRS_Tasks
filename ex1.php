@@ -1,7 +1,5 @@
-<?php
-$title= "Exercise: Number 1"; 
-include "header.php" ?>
-<h1>3.1 Write a simple PHP script to print your information (Name and your groupid)  </h1>
+<?php include "header.php" ?>
+<h1> 3.1 Write a simple PHP script to print your information (Name and your groupid)  </h1>
 <?php
 echo"Bishal Ram Shrestha<br>";
 echo "BBCAP22";
@@ -11,7 +9,8 @@ echo "BBCAP22";
 echo "Hello world! My name is \"David\""; 
 ?>
 <h1>3.3 Write the PHP code in to display the current date. </h1>
-<?php echo date("d.m.Y")?>
+<?php echo date("d.m.Y") ?>
+<?php include "footer.php" ?>
 <h3> 3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document</h3> 
 <?php 
 $title1 = "PHP is interesting";
